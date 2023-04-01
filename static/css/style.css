@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background-color: grey;
+}
+
+.container {
+  background-color: rgba(255, 255, 255, 0.75);
+  height: 40%;
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 3px;
+  box-shadow: 1px 1px 1px rgb(81, 80, 80);
+}
+
+.container h2,
+.container form {
+  padding: 1rem;
+}
+
+.container h2 {
+  background-color: aliceblue;
+}
+
+form * {
+  display: block;
+}
+
+form input {
+  margin-left: 1rem;
+}
